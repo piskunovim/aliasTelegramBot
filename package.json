@@ -1,0 +1,16 @@
+{
+  "name": "alias-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A simple Telegram bot to play Alias game with friends",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --es-module-specifier-resolution=node index.js"
+  },
+  "author": "Igor Piskunov",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "3.3.1",
+    "node-telegram-bot-api": "0.61.0"
+  }
+}
